@@ -1,0 +1,1 @@
+scp -r palantir@192.168.0.37:Palantir/ "C:/Users/Justin Leighton/Desktop/Development/Palantir"

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# RASPIAUDO
+
+# Install driver
+sudo wget -O mic mic.raspiaudio.com
+bash mic
+
+# Install tester
+sudo wget -O test test.raspiaudio.com
+bash test
+
+# test audio
+# alsamixer
+
+
+
+
+# Python
+sudo apt update
+sudo apt install python3.7
+sudo apt install python3-pip
+python3 -m pip install -r Palantir/requirements.txt
+
+
+# Additional packages
+sudo apt-get install libwebp-dev
+sudo apt install libtiff5
+sudo apt-get install libopenjp2-7-dev
